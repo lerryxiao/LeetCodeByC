@@ -4,6 +4,7 @@ project(leetCodeC)
 set(CMAKE_CXX_STANDARD 11)
 
 include(src/206ReverseLinkedList/CMakeList.txt)
+include(src/35SearchInsertPosition/CMakeList.txt)
 
 set(SOURCE_FILES  ${PROJECT_SOURCE_DIR}/src/main.c )
 
