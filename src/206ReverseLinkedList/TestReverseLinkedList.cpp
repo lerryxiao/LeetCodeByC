@@ -2,7 +2,6 @@
 // Created by 肖乐源 on 18/02/2017.
 //
 #include <stdlib.h>
-#include <stdio.h>
 #include "gtest/gtest.h"
 #include "reverseLinkedList.h"
 #include "../common/ListNode.h"
