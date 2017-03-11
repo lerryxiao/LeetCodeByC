@@ -17,6 +17,8 @@ TEST(ReverseLinkedListSuite, OneNode) {
         len--;
         res = res->next;
     }
+    delete list;
+    delete res;
 }
 
 TEST(ReverseLinkedListSuite, TwoNode) {
