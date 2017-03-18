@@ -1,11 +1,11 @@
 //
 // Created by 肖乐源 on 17/02/2017.
 //
+#include <gtest/gtest.h>
 
-#include <stdio.h>
 
-int main()
+int main(int argc, char** argv)
 {
-    printf("Hello LeetCode\n");
-    return 0;
+    testing::InitGoogleTest(&argc, argv);
+    int val = RUN_ALL_TESTS();
 }

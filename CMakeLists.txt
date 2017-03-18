@@ -5,11 +5,12 @@ set(CMAKE_CXX_STANDARD 11)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS} )
 
-include(src/206ReverseLinkedList/CMakeLists.txt)
-include(src/35SearchInsertPosition/CMakeLists.txt)
-include(src/118PascalsTriangle/CMakeLists.txt)
-include(src/119PascalsTriangle2/CMakeLists.txt)
-include(src/1TwoSum/CMakeLists.txt)
+include(${PROJECT_SOURCE_DIR}/src/206ReverseLinkedList/CMakeLists.txt)
+include(${PROJECT_SOURCE_DIR}/src/35SearchInsertPosition/CMakeLists.txt)
+include(${PROJECT_SOURCE_DIR}/src/118PascalsTriangle/CMakeLists.txt)
+include(${PROJECT_SOURCE_DIR}/src/119PascalsTriangle2/CMakeLists.txt)
+include(${PROJECT_SOURCE_DIR}/src/1TwoSum/CMakeLists.txt)
+include(${PROJECT_SOURCE_DIR}/src/167TwoSumII/CMakeLists.txt)
 
 set(SOURCE_FILES  ${PROJECT_SOURCE_DIR}/src/main.c )
 
